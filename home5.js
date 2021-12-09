@@ -1,4 +1,4 @@
-//check for boolean number
+// 1. check for boolean number
 // Boolean(prompt(number));{
 //     while(number==9 && number == [0-9]){
 
@@ -10,7 +10,7 @@
     
 // }
 
-//check for prime
+// 2. check for prime
 // function isPrime(num) {
 //     let sqrtnum=Math.floor(Math.sqrt(num));
 //       let prime = num != 1;
@@ -25,7 +25,7 @@
 //   debugger;
 // isPrime(19);
 
-//space before capital function
+// 3. space before capital function
 
 // function insertSpaces(string) {
 //     string = string.replace(/([a-z])([A-Z])/g, '$1 $2');
@@ -38,28 +38,28 @@
 // console.log(res);
 
 // insert only true digits
-let array =prompt([])
+// let array =prompt([])
 
-function trueNum(array) {
+// function trueNum(array) {
    
-    let flag=true;
-    for (let i = 0; i<= Infinity; i++) {
-        if (num= (array.push(prompt(getElementById(i+1))))); {
+//     let flag=true;
+//     for (let i = 0; i<= Infinity; i++) {
+//         if (num= (array.push(prompt(getElementById(i+1))))); {
             
-            flag=true;
+//             flag=true;
             
-        }
-        else ( i>0 );  {
-            alert("sdfs")
-            break 
-        }
+//         }
+//         else ( i>0 );  {
+//             alert("sdfs")
+//             break 
+//         }
         
-    }
-}
-debugger;
-trueNum(array);
+//     }
+// }
+// debugger;
+// trueNum(array);
 
-// program to check the number of occurrence of a character
+// 4. program to check the number of occurrence of a character
 
 // function compareString(str, str2) {
 //     (prompt(str));
@@ -98,26 +98,18 @@ trueNum(array);
 //    bblSort(arr);
 
 
-// Use insert() function to insert the number in textview.  
-function insert(num)   
-{  
-documentdocument.form1.textview.value = document.form1.textview.value + num;  
-}  
-  
-// Use equal() function to return the result based on passed values.  
-function equal()  
-{  
-var exp = document.form1.textview.value;  
-if(exp)  
-{  
-document.form1.textview.value = eval(exp)  
-}  
-}  
-  
-/* Here, we create a backspace() function to remove the number at the end of the numeric series in textview. */  
-function backspace()  
-{  
-var exp = document.form1.textview.value;  
-document.form1.textview.value = exp.substring(0, exp.length - 1); /* remove the element from total length ? 1 */  
-}  
+// 7. Value input variable
+// const inputField = document.getElementById('input');
+
+// Insert number on input fied
+// const insertNum = num => inputField.textContent += num;
+
+// Do operation using eval()
+// const equalTo = () => (inputField.textContent) ? inputField.textContent = eval(inputField.textContent) : false;
+
+// Remove 1 val at time
+// const eraseNum = () => inputField.textContent = inputField.textContent.substring(0, inputField.textContent.length - 1);
+
+// Clear all the input
+// const clearInput = () => inputField.textContent = '';
   
