@@ -60,7 +60,7 @@
 
 //4
 let arrPrime = [[1,23,4,87], [7,243,42,875],[5,9,8,6,3,2,1,0] ] ;
-function checkPrime(arr) {
+function checkPrime([arr]) {
     if (arr <= 1) {
       return false;
     } else {
