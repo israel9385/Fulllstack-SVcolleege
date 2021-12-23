@@ -59,18 +59,51 @@
 // let res = findCommonElement(array1, array2);
 
 //4
-let arrPrime = [[1,23,4,87], [7,243,42,875],[5,9,8,6,3,2,1,0] ] ;
-function checkPrime([arr]) {
-    if (arr <= 1) {
-      return false;
-    } else {
-      for (let i = 2; i < arr; i++) {
-        if (arr % i == 0) {
-          return false;
+// let arr = [[1,23,4,87], [7,243,42,875],[5,9,8,6,3,2,1,0] ] ;
+// function checkPrime([arr]) {
+//     if (arr <= 1) {
+//       return false;
+//     } else {
+//       for (let i = 2; i < arr; i++) {
+//         if (arr % i == 0) {
+//           return false;
+//         }
+//       }
+//       return true;
+//     }
+//   }
+  
+// debugger;
+//   arr.forEach(function (element) {
+//     let isPrime = checkPrime(element);
+//     if (isPrime) {
+//       console.log(`${element} is a prime number`);
+//     } else {
+//       console.log(`${element} is NOT a prime number`);
+//     }
+//   });
+
+//5
+let arr = [['this iS a TeSt 523 Now!'],
+           ['anD WhAt NOw?']];
+let i=0;
+let character='';
+function isUp([arr]) {
+    
+    while (i <= strings.length){
+        character = strings.charAt(i);
+        if (!isNaN(character * 1)){
+            alert('character is numeric');
+        }else{
+            if (character == character.toUpperCase()) {
+                alert ('upper case true');
+            }
+            if (character == character.toLowerCase()){
+                alert ('lower case true');
+            }
         }
-      }
-      return true;
+        i++;
     }
-  }
-  debugger;
-  let resPrime = checkPrime(arrPrime);
+    
+}
+isUp()
