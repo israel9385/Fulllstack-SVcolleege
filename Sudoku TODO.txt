@@ -1,0 +1,29 @@
+--------TODO--------
+
+This is A TODO document regarding the Sudoku project.
+
+
+1.Login Page:
+HTML --> DIV inside DIV containig:
+*H1 header
+*user name input (must have valaidation for only chars)
+*Password input  (must have valaidation for only nums)
+*Enter button    (on click moves you to the start game screen if name/pass is correct. or denied acsess with throw exeption if fails)
+	
+
+onboarding:
+presents wellcome ABCD (H1 in header)
+inside DIV H2 choose level                            75%   50%   25% 
+3 buttons using onClick for 3 different difficultys (easy,medium,hard)
+each button triggers math.random for sorting the amount of numbers presnted on the board
+clicking the level buttons trigger the creation of A game board on a new screen. with the right amount of numbers on board.
+
+Game:
+
+H1 good Luck
+under it presented the game table
+under the Table 2 buttons
+*again- reset the board for a new game(that means it needs to triger the last level difficulty that was chosen
+ [we need to transfer that on the first click])
+*finish- check the board for missing numbers, duplicate numbers,NAN. if game is won pop up you wim
+if not: pop up Game over
